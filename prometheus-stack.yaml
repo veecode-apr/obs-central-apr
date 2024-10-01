@@ -12,12 +12,12 @@ alertmanager:
       kubernetes.io/tls-acme: "true"
     enabled: true
     hosts:
-    - alertmanager.obs-central-apr.vkpr.platform.vee.codes
+    - alertmanager.apr.platform.vee.codes
     ingressClassName: kong
     pathType: ImplementationSpecific
     tls:
     - hosts:
-      - alertmanager.obs-central-apr.vkpr.platform.vee.codes
+      - alertmanager.apr.platform.vee.codes
 commonLabels:
   app.kubernetes.io/managed-by: vkpr
 grafana:
@@ -52,12 +52,12 @@ grafana:
       kubernetes.io/tls-acme: "true"
     enabled: true
     hosts:
-    - grafana.obs-central-apr.vkpr.platform.vee.codes
+    - grafana.apr.platform.vee.codes
     ingressClassName: kong
     path: /
     tls:
     - hosts:
-      - grafana.obs-central-apr.vkpr.platform.vee.codes
+      - grafana.apr.platform.vee.codes
   persistence:
     enabled: true
     size: 10Gi
@@ -77,11 +77,11 @@ prometheus:
       kubernetes.io/tls-acme: "true"
     enabled: true
     hosts:
-    - prometheus.obs-central-apr.vkpr.platform.vee.codes
+    - prometheus.apr.platform.vee.codes
     ingressClassName: kong
     tls:
     - hosts:
-      - prometheus.obs-central-apr.vkpr.platform.vee.codes
+      - prometheus.apr.platform.vee.codes
   prometheusSpec:
     enableRemoteWriteReceiver: true
     externalLabels:
