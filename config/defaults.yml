@@ -1,6 +1,6 @@
 ---
 cluster_name: "obs-central-apr"
-VPC_ID: "vpc-0a59355eac69c9395
+VPC_ID: "vpc-0a59355eac69c9395"
 SUBNET_ID: "subnet-0a9d7006b9e02e8b2"
 instance_type: "t3.medium"
 keypair: "platform_kp"
