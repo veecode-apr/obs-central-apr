@@ -4,7 +4,7 @@ metadata:
   name: "obs-central-apr"
   environment:
     cluster_type: ec2
-    domain: vkpr.platform.vee.codes
+    domain: platform.vee.codes
     ingress_type: kong
     certificate_account_email: platformss@vee.codes
     certificate_environment_type: staging
