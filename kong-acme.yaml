@@ -12,5 +12,5 @@ config:
   tos_accepted: true
   fail_backoff_minutes: 1
   account_email: 'platformss@vee.codes'
-  api_uri: https://acme-staging-v02.api.letsencrypt.org/directory  
+  api_uri: https://acme-v02.api.letsencrypt.org/directory  
 plugin: acme
