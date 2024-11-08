@@ -9,6 +9,7 @@ metadata:
     certificate_account_email: platformss@vee.codes
     certificate_environment_type: staging
     public_ip: 54.92.227.240
+    grafana_endpoint: https://grafana.apr.platform.vee.codes
   annotations:
     github.com/project-slug: veecode-homolog/obs-central-apr
     infracost/project: obs-central-apr
